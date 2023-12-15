@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body{
+    background-color: #DDD0C8;
+    min-height: 100vh;
+}
+
+.nav-container{
+    display: flex;
+    gap: 15px;
+    margin: 10px auto 0 10px;
+}
+
+.nav-item{
+    font-weight: 800;
+}
+
+ul{
+    list-style-type: none;
+}
+
+main{
+    margin-top: 50px;
+}
+
+.main-container{
+    text-align: center;
+}
+
+.companyName{
+    margin: 0 auto 0 auto;
+    max-width: 600px;
+    
+}
+
+.companyName h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.contact-container h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.contact-container{
+    font-size: 18px;
+    font-weight: 450;
+    max-width: 600px;
+    margin: 0 auto 0 auto;
+    margin-top: 50px;
+}
+
+.contactButton{
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+
+.companyName p{
+    font-size: 18px;
+    font-weight: 450;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-item:hover{
+    font-weight: 800;
+    color: #DDD0C8;
+    background-color: black;
+    cursor: pointer;
+}
+
+
+.img-container{
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+    width: 2400px;
+    overflow: hidden;
+    animation: animate var(--t) alternate infinite ease-in-out;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.img-container .container-images{
+    display: inline-flex;
+    padding-right: 20px;
+    width: 400px;
+    height: 300px;
+    margin-left: 10px;  
+    margin-right: 0;
+}
+
+@keyframes animate {
+    100%
+    {
+        transform: translateX(99%);
+    }
+    100%
+    {
+        transform: translateX(-19.5%);
+    }
+}
+

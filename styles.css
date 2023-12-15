@@ -24,8 +24,8 @@ body{
     padding: 10px;
 }
 
-li{
-    
+p{
+    line-height: 30px;
 }
 .nav-item > h2{
     width: 100%;
@@ -36,7 +36,7 @@ ul{
 }
 
 main{
-    margin-top: 50px;
+    margin-top: 15px;
 }
 
 .main-container{

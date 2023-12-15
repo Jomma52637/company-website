@@ -125,11 +125,14 @@ a{
     position: relative;
     width: 2400px;
     overflow: hidden;
-    animation: animate var(--t) alternate infinite ease-in-out;
+    
     white-space: nowrap;
     overflow: hidden;
 }
 
+.img-container:hover{
+    animation: animate var(--t) alternate infinite ease-in-out;
+}
 
 .img-container .container-images{
     display: inline-flex;

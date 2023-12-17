@@ -13,23 +13,36 @@ body{
 
 .nav-container{
     display: flex;
+    width: 100%;
+    float: left;
     gap: 15px;
-    margin: 10px auto 0 10px;
+    margin: 10px auto 0 auto;
+    
 }
 
 .nav-item{
+    display: flex;
+    container-name: nav-container;
     top: 0;
     font-weight: 800;
-    margin-right: 40px;
+    margin-right: auto;
+    margin-left: auto;
     padding: 10px;
+    width: 50%;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
+.nav-item h2{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5vw;
+}
 p{
     line-height: 30px;
 }
-.nav-item > h2{
-    width: 100%;
-}
+
 
 ul{
     list-style-type: none;
@@ -97,7 +110,7 @@ main{
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 100%;
+  width: 300px;
 }
 
 .contactButton:hover{
@@ -156,4 +169,30 @@ a{
     {
         transform: translateX(-19.5%);
     }
+}
+
+
+
+
+input{
+    display: block;
+    margin: 0 auto;
+    width: 275px;
+    border-radius: 5px;
+    height: 25px;
+    font-size: 24px;
+}
+
+textarea{
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.contactForm{
+    text-align: center;
+}
+
+.contactLabel{
+    font-weight: 800;
+    font-size: 20px;
 }

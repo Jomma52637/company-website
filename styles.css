@@ -118,9 +118,24 @@ main{
 }
 
 .contactButton:hover{
-    transform: scale(1.1)
+    animation: GetBig 1s ease-in-out 1;
 }
 
+
+@keyframes GetBig{
+    25%{
+        transform: scale(1.2)
+    }
+    50%{
+        transform: scale(1.1)
+    }
+    75%{
+        transform: scale(1.2)
+    }
+    100%{
+        transform: scale(1)
+    }
+}
 
 .companyName p{
     font-size: 18px;

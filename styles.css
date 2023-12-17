@@ -11,34 +11,37 @@ body{
     min-height: 100vh;
 }
 
+.spacer{
+    height: 2px;
+    width: 100%;
+    background-color: black;
+}
+
+
 .nav-container{
     display: flex;
-    width: 100%;
+    width: 100vw;
     float: left;
-    gap: 15px;
-    margin: 10px auto 0 auto;
-    
+    margin: 0px auto 0 auto;
 }
 
 .nav-item{
     display: flex;
-    container-name: nav-container;
     top: 0;
-    font-weight: 800;
+    font-weight: 600;
     margin-right: auto;
     margin-left: auto;
     padding: 10px;
-    width: 50%;
-    text-align: center;
-    margin-left: 5px;
-    margin-right: 5px;
+    width: 100wv;
 }
 
 .nav-item h2{
+    font-weight: 650;
     margin-left: auto;
     margin-right: auto;
-    font-size: 1.5vw;
+    font-size: 2.1vw;
 }
+
 p{
     line-height: 30px;
 }
